@@ -36,6 +36,7 @@ const MassacreInfo = ({ item, id }: MassacreCardProps) => {
       <div className="p-5 text-gray-500">جاري تحميل بيانات المجزرة...</div>
     );
   }
+
   const handleDelete = async (id?: string) => {
     if (!id) return;
 
@@ -75,7 +76,8 @@ const MassacreInfo = ({ item, id }: MassacreCardProps) => {
   };
 
   console.log(item.numberOfMartyrs);
-  console.log(item.totalOfMaryrs);
+  console.log(item.totalOfMartyrs);
+  console.log(item);
 
   return (
     <div className={`${card} card-shadow bg-[#fbfdff]`}>
@@ -200,7 +202,7 @@ const MassacreInfo = ({ item, id }: MassacreCardProps) => {
           </div>
           <div className="flex-1 flex items-center pr-5">
             <div className="w-2/3 text-[#8B0000]">
-              {item.totalOfMaryrs || "0"}
+              {item.totalOfMartyrs || "0"}
             </div>
           </div>
         </div>

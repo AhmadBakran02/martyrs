@@ -73,7 +73,6 @@ const AddCitationInfo = ({ onChange, martyr }: AddCitationInfoProps) => {
       massacreId,
     });
   }, [
-    onChange,
     dateMartyrdom,
     burialDate,
     age,

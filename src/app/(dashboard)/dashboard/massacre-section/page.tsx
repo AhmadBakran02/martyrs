@@ -39,7 +39,7 @@ export default function EditMassacre() {
       it.name.toLowerCase().includes(query.trim().toLowerCase())
   );
 
-  console.log(error);
+  console.log(filtered);
 
   return (
     <div className="p-5 h-dvh">

@@ -44,7 +44,7 @@ const MassacreCard = (item: MassacreCardProps) => {
           <div className="flex justify-between items-center text-base sm:text-lg">
             <span>عدد الشهداء الموثق:</span>
             <span className="font-bold text-black">
-              {item.item.totalOfMaryrs || 0}
+              {item.item.totalOfMartyrs || 0}
             </span>
           </div>
           <div className="flex justify-between items-center text-base sm:text-lg">
